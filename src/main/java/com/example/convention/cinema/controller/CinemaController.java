@@ -2,21 +2,21 @@ package com.example.convention.cinema.controller;
 
 import com.example.convention.cinema.service.CinemaService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @since       2023.02.27
  * @author      martin
- * @description cinema service
+ * @description cinema controller
  **********************************************************************************************************************/
-@RestController("/api")
+@RestController
+@RequestMapping("/cinema")
 @RequiredArgsConstructor
 public class CinemaController {
 
 	private final CinemaService cinemaService;
 
-	@GetMapping("/cinema")
+	@GetMapping
 	public void getByMovie() {
 
 	}
