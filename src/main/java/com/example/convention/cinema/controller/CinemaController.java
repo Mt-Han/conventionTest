@@ -6,4 +6,5 @@ package com.example.convention.cinema.controller;
  **********************************************************************************************************************/
 public class CinemaController {
 
+
 }
