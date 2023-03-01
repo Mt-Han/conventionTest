@@ -5,4 +5,5 @@ package com.example.convention.cinema.controller;
  * @description cinema service
  **********************************************************************************************************************/
 public class CinemaController {
+
 }
